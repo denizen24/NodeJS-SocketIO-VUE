@@ -1,0 +1,33 @@
+{
+  "name": "node-chat",
+  "version": "1.0.0",
+  "description": "nodejs-chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denizen24/NodeJS-SocketIO-VUE.git"
+  },
+  "keywords": [
+    "nodejs",
+    "socketio",
+    "vuejs",
+    "chat"
+  ],
+  "author": "denizen24.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denizen24/NodeJS-SocketIO-VUE/issues"
+  },
+  "homepage": "https://github.com/denizen24/NodeJS-SocketIO-VUE#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
