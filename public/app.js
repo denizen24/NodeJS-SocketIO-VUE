@@ -4,7 +4,7 @@ Vue.component('chat-message', {
   props: ['message', 'user'],
   template: `
     <div class="message" :class="{'owner': message.id === user.id}">
-        <div class="message-content z-depth-1">
+        <div class="message-content z-depth-1" :class="{'bot': message.name === 'ChatBot'}">
             {{message.name}}: {{message.text}}
         </div>
     </div>
