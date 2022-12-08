@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/denizen24/NodeJS-SocketIO-VUE#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "socket.io": "^2.4.0"
   },
   "devDependencies": {
